@@ -1,0 +1,33 @@
+{
+    
+    "ownerName":{
+        "id":"Owner Name", 
+        "validation":"text",
+        "required":true
+    },
+    "model":{
+        "id":"Model", 
+        "validation":"select",
+        "required":true
+    },
+    "manufacturedDate":{
+        "id":"Manufactured Date", 
+        "validation":"date", 
+        "required":true
+    },
+    "purchasePrice":{
+        "id":"Purchase Price", 
+        "validation":"numeric", 
+        "required":true
+    },
+    "seatCapacity":{
+        "id":"Seat Capacity", 
+        "validation":"numeric",
+        "required":true
+    },
+    "brokerEmail":{
+        "id":"Email", 
+        "validation":"email",
+        "required":true
+    }
+}

@@ -1,0 +1,13 @@
+{
+    
+    "title":{
+        "id":"Title", 
+        "validation":"text",
+        "required":true
+    },
+    "description":{
+        "id":"Description", 
+        "validation":"text",
+        "required":true
+    }
+}

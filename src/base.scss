@@ -1,0 +1,38 @@
+body {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.5;
+    color: #24292e;
+    background-color: #fff;
+}
+h1 {
+   font-weight: normal; 
+}
+h2 {
+    font-weight: normal; 
+}
+h4 {
+    font-weight: normal; 
+}
+#root{
+    width: auto;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+}
+#submit_button{
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top:15px;
+    font-size: 14px;
+    font-weight: bold;
+    width: 94px;
+}
+

@@ -1,0 +1,24 @@
+.success{
+    background-color: #4CAF50;
+    border-radius: 5px;
+    border: solid #026d07;
+    color: white;
+    padding: 9px;
+    width: 43%;
+    font-size: 17px;
+    display: block;
+}
+.error{
+    color: white;
+    background-color: #f44242;
+    border: solid;
+    border-color: #d33737;
+    padding: 9px;
+    width: 43%;
+    font-size: 15px;
+    display: block;
+    border-radius: 5px;
+}
+.none{
+    display:none;
+}

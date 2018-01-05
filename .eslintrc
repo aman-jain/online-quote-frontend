@@ -1,0 +1,27 @@
+{
+    "globals": {
+        "require": true
+    },
+    "parserOptions": {
+        "ecmaVersion": 6,
+        "sourceType": "module"
+    },
+    "rules": {
+        "strict": 0,
+        "indent": ["error", 4],
+        "prefer-destructuring": 0,
+        "react/jsx-filename-extension": 0,
+        "react/jsx-indent": 0,
+        "max-len": ["error", { "code": 300 }],
+        "jsx-quotes": 0,
+        "arrow-body-style": 0,
+        "react/no-array-index-key": 0,
+        "class-methods-use-this": 0
+    },
+    "env": {
+        "browser": true,
+        "node": true,
+        "es6": true
+    }
+
+}

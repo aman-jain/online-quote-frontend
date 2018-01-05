@@ -1,0 +1,38 @@
+.news_form_container{
+    background-color: #f2f2f2;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.news_form_container .form_row {
+    width: 100%;
+    margin-top: 6px;
+    display: grid;
+  }
+
+.form_row label {
+    float: left;
+    width: 25%;
+    margin-top: 6px;
+    font-weight: bold;
+  }
+  
+  /* Floating column for inputs: 75% width */
+.form_row input{
+    float: left;
+    width: 45%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical;
+  }
+.form_row textarea{
+    float: left;
+    width: 45%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical;
+}  
