@@ -7,12 +7,20 @@
     "start": "NODE_ENV=production node app.js",
     "dev": "webpack-dev-server --open",
     "build": "cross-env NODE_ENV=production webpack",
-    "lint": "eslint src"
+    "lint": "eslint src",
+    "test": "jest"
+  },
+  "jest": {
+    "roots": [
+      "<rootDir>/src"
+    ],
+    "transform": {".*": "<rootDir>/node_modules/jest-css-modules"}
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "babel-core": "^6.26.0",
+    "babel-jest": "^22.0.4",
     "babel-loader": "^7.1.2",
     "babel-preset-es2015": "^6.24.1",
     "babel-preset-react": "^6.24.1",
@@ -21,6 +29,8 @@
     "copy-webpack-plugin": "^4.3.1",
     "cross-env": "^5.1.3",
     "css-loader": "^0.28.7",
+    "enzyme": "^3.3.0",
+    "enzyme-adapter-react-16": "^1.1.1",
     "eslint": "^4.14.0",
     "eslint-config-airbnb": "^16.1.0",
     "eslint-plugin-import": "^2.8.0",
@@ -30,7 +40,11 @@
     "helmet": "^3.9.0",
     "html-webpack-plugin": "^2.30.1",
     "http": "0.0.0",
+    "jest": "^22.0.4",
+    "jest-css-modules": "^1.1.0",
+    "jest-enzyme": "^4.0.2",
     "node-sass": "^4.7.2",
+    "react-test-renderer": "^16.2.0",
     "sass-loader": "^6.0.6",
     "serve": "^6.4.3",
     "style-loader": "^0.19.1",
